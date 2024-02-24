@@ -4,12 +4,12 @@ import React from 'react'
 export default function Quotes({
   quotes,
   // 👇 although you can remove the default parameters of the Quotes component after you're done
-  highlightedQuote = 1,
-  displayAllQuotes = true,
-  deleteQuote = () => { },
-  editQuoteAuthenticity = () => { },
-  setHighlightedQuote = () => { },
-  toggleVisibility = () => { },
+  highlightedQuote,
+  displayAllQuotes,
+  deleteQuote,
+  editQuoteAuthenticity,
+  setHighlightedQuote,
+  toggleVisibility,
 }) {
 
   return (
